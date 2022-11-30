@@ -6,6 +6,7 @@
 	<!-- Root Context: defines shared resources visible to all other web components -->
 		<!--  -->
 		<!--  -->
+		<!--  --><!-- asasdfasdf -->
 	<bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName"
