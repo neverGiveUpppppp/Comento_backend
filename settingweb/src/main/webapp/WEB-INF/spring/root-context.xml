@@ -5,28 +5,30 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 
+<!-- datasource : db연결 정보. "로컬주소/스키마"로 이루어져있고, ID와 패스워드를 입력필수 -->
 	<bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName"
-            value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
+            	  value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
         <property name="url"
-            value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/theater" />
+            	  value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/theater" />
         <property name="username" value="root" />
         <property name="password" value="devfunpj" />
     </bean>
  
- 
+<!-- sqlsessionfactoryBean : mariadb 설정기능을 사용하도록 세팅하고 mapperLocation 즉 sql 문을 mybatis/sql 경로에 있는 xml파일로 한다고 명시 -->
     <bean id="sqlSessionFactory"
         class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <property name="configLocation"
-            value="classpath:/mybatis/mybatis-config.xml"></property>
+            	  value="classpath:/mybatis/mybatis-config.xml"></property>
         <property name="mapperLocations"
-            value="classpath*:/mybatis/sql/*.xml"></property>
+                  value="classpath*:/mybatis/sql/*.xml"></property>
     </bean>
  
+Z<!-- SqlSessionTemplate : 트랜잭션 관리와 쓰레드 처리, DB연결 및 종료를 관리 -->
     <bean id="sqlSession"
-        class="org.mybatis.spring.SqlSessionTemplate">
+        class="org.mybatis.spring.SqlSessionTemplate"> 
         <constructor-arg name="sqlSessionFactory"
             ref="sqlSessionFactory"></constructor-arg>
     </bean>
