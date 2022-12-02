@@ -1,24 +1,22 @@
 package com.devfun.vo;
 
 public class MovieVO {
-	
+
+
 	private int movieId;
 	private String movieName;
 	private String director;
 	private String types;
-	private String moviecol;
 	
+	public void MoiveVO() {}
 	
-	
-	public void MovieVO() {}
-	
-	public void MovieVO(int movieId, String movieName, String director, String types, String moviecol) {
+	public void MovieVO(int movieId, String movieName, String director, String types) {
 		this.movieId = movieId;
 		this.movieName = movieName;
 		this.director = director;
 		this.types = types;
-		this.moviecol = moviecol;
 	}
+	
 	
 	public int getMovieId() {
 		return movieId;
@@ -26,7 +24,7 @@ public class MovieVO {
 	public void setMovieId(int movieId) {
 		this.movieId = movieId;
 	}
-
+	
 	public String getMovieName() {
 		return movieName;
 	}
@@ -50,10 +48,11 @@ public class MovieVO {
 	public void setTypes(String types) {
 		this.types = types;
 	}
-
-	public void setMoviecol(String moviecol) {
-		this.moviecol = moviecol;
-	}
 	
+	@Override
+	public String toString() {
+		return "MovieVO [movieId=" + movieId + ", movieName=" + movieName + ", director=" + director + ", types="
+				+ types + "]";
+	}
 
 }

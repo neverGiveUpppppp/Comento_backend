@@ -16,8 +16,8 @@ import com.devfun.service.MovieService;
 import com.devfun.vo.MovieVO;
 
 /**
- * Handles requests for the application home page.  
- */ 
+ * Handles requests for the application home page.
+ */
 @Controller
 public class HomeController {
 	
@@ -31,14 +31,16 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) throws Exception{
-		logger.info("home");
-		
-		List<MovieVO> movieList = service.selectMovie();
-		model.addAttribute("movieList", movieList );
-		
-		return "home";
-	}
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String home(Locale locale, Model model) throws Exception{
+ 
+        logger.info("home");
+        
+        List<MovieVO> movieList = service.selectMovie();
+        
+        model.addAttribute("movieList", movieList);
+ 
+        return "home";
+    }
 	
 }
