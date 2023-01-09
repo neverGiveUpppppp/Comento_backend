@@ -15,7 +15,7 @@ spring 개발 환경 세팅 및 구동
 **2)about HTTP 통신** : [Notion Link] (https://www.notion.so/consistently-n-be-positive/HTTP-5b3c77108099473897a7d4061ac2054a ,"notion Link")   
 **3)브라우저에 URL을 입력 후 요청하여 서버에서 응답하는 과정**   
 ![HTTP통신과정](https://user-images.githubusercontent.com/95724704/211257812-18d6e30e-4998-4cef-ab09-4db440b4599a.png)
-<img src="(https://user-images.githubusercontent.com/95724704/211257812-18d6e30e-4998-4cef-ab09-4db440b4599a.png)" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="https://user-images.githubusercontent.com/95724704/211257812-18d6e30e-4998-4cef-ab09-4db440b4599a.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="HTTP통신과정"></img>
 
 API docs 작성
 
