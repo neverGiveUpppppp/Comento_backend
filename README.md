@@ -1,8 +1,8 @@
 # Comento_backend
 
 https://comento.kr/classroom/5155
+<br><br>
 
-assignment
 
 ## 1st 
 spring 개발 환경 세팅 및 구동
@@ -33,7 +33,9 @@ https://www.notion.so/consistently-n-be-positive/HTTP-5b3c77108099473897a7d4061a
 
 <br>
 
-API docs 작성   
+**API docs 작성**   
+https://docs.google.com/document/d/1TQQgXGnVvGbzCMgLO42eAkcqerRZIBjwwAIWK35AEmw/edit?usp=sharing
+
 
 
 ## 3rd
