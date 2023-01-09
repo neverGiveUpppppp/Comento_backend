@@ -20,6 +20,7 @@ https://www.notion.so/consistently-n-be-positive/HTTP-5b3c77108099473897a7d4061a
 **3.브라우저에 URL을 입력 후 요청하여 서버에서 응답하는 과정**   
 <br>
 <img src="https://user-images.githubusercontent.com/95724704/211257812-18d6e30e-4998-4cef-ab09-4db440b4599a.png" width="60%" height="60%" title="HTTP통신과정" alt="HTTP통신과정"></img>
+<
 1)사용자가 원하는 페이지 url 요청(request)   
 2)브라우저는 해당 웹페이지 URL을 클라이언트 쪽 HTTP 프로토콜로 전송   
 3)클라이언트 쪽 HTTP Protocol에은 도메인네임을 DNS로 보내서 해당 서버의 IP주소를 받아옴    
