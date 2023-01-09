@@ -11,10 +11,10 @@ spring 개발 환경 세팅 및 구동
 <br>
 
 ## 2nd    
-**1.Rest API란?**
+**1.Rest API란?**   
 https://www.notion.so/consistently-n-be-positive/REST-API-RESTful-API-abcefe6bd6044d3f9c83cd1e040099b7   
 <br>
-**2.about HTTP 통신** 
+**2.about HTTP 통신**   
 https://www.notion.so/consistently-n-be-positive/HTTP-5b3c77108099473897a7d4061ac2054a   
 <br>
 **3.브라우저에 URL을 입력 후 요청하여 서버에서 응답하는 과정**   
